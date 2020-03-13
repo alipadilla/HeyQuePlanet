@@ -7,6 +7,8 @@
     top: 0%;
     display: none;
     float: right;
+    position: fixed; top:0
+
 } 
 
 .nav-link{
@@ -40,37 +42,38 @@
     align-items: center;
 }
 
+.video{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 .video-header{
     /* position: initial; */
+    width: 720px;
+    height: auto;
     right: 0;
     bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
+    /* min-width: 100%; 
+    min-height: 100%; */
 }
 
-
-.divInicio{
-    border: solid 4px orange;
-    
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-.letsSave{
-    border: solid 4px blue;
-    width: 500px;
-}
-
-.texto1{
-    border: solid 4px cornflowerblue;
-    font-family: oswald;
-}
-
-
-
+/* 
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(https://media.revistagq.com/photos/5ca5f3fcbfc0eb79561c80c3/master/w_1200,c_limit/5_hamburguesas_gourmet_que_debes_probar_4134.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
 
 
 
@@ -78,10 +81,93 @@
 /* . HTMLFORMULARIO */
 .formulario{
     padding-top: 70px;
-    width: 550px;
-    border: tomato solid 2px;
+    padding-bottom: 70PX;
+    width: auto;
+    /* border: tomato solid 2px; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    background-image: url(https://images.unsplash.com/photo-1519562990232-845beca99938?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+.needs-validation{
+    padding-top: 70px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    width: 550px;
+    /* border: rgb(179, 179, 179) solid 1px; */
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.461);
+
+}.unete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    font-family: oswald;
+    text-align: center;
+    color: #187725;
+}
+/* TERMINA FORMULARIO */
+
+
+
+/* INICIA FOOTER */
+#backfooter{
+    background-color: #A3D810;
+}
+.container{
+    background-color: #A3D810;
+    width: auto;
+    height: auto;
+    /* margin-left: 0px; */
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 80px;
+    display: block;
+    
+    
+   
+    
+}
+h3{
+    padding-top: 40px;
+    font-family: oswald;
+    color: #187725;
+}
+
+/* ICONOS REDES SOCIALES */
+
+
+.f3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+}
+#fb{
+    width: 35px;
+    height: 35px;
+}
+#ig{
+    width: 35px;
+    height: 35px;
+}
+#tw{
+    width: 35px;
+    height: 35px;
+}
+#ytb{
+    width: 45px;
+    height: 35px;
+}
+#share{
+    width: 35px;
+    height: 35px;
+}
+/* TERMINA FOOTER */
